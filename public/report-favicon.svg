@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Main Document Body -->
+  <path d="M64,32 
+           L340,32 
+           L480,172 
+           L480,448 
+           A32,32 0 0,1 448,480 
+           L96,480 
+           A32,32 0 0,1 64,448 
+           L64,64 
+           A32,32 0 0,1 96,32 
+           Z" 
+        fill="white" />
+
+  <!-- Folded Corner Effect -->
+  <path d="M340,32 
+           L340,156 
+           A16,16 0 0,0 356,172 
+           L480,172 
+           Z" 
+        fill="#E5E7EB" />
+  
+  <!-- Profile Silhouette (Black) -->
+  <g transform="translate(256, 280)">
+      <!-- Head -->
+      <circle cx="0" cy="-60" r="55" fill="#111827" />
+      <!-- Shoulders -->
+      <path d="M-80 60 A 80 80 0 0 1 80 60 L 80 80 L -80 80 Z" fill="#111827" />
+  </g>
+</svg>

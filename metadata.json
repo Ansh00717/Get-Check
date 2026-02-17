@@ -1,0 +1,5 @@
+{
+  "name": "GetCheck.ai",
+  "description": "Professional Resume/CV Analyzer using Gemini 3 Flash. Upload PDF, DOCX, TXT, or Image (JPG, PNG) files to get a comprehensive review, scoring, and actionable feedback.",
+  "requestFramePermissions": []
+}
