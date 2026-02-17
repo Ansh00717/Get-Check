@@ -150,9 +150,9 @@ const RESPONSE_SCHEMA: Schema = {
 
 // Helper to initialise the Gemini client once
 const getAI = () => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
   if (!apiKey) {
-    throw new Error("API Key is missing. Please set process.env.API_KEY.");
+    throw new Error("API Key is missing. Please set VITE_GEMINI_API_KEY.");
   }
   return new GoogleGenAI({ apiKey });
 };
